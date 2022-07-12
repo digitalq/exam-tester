@@ -226,7 +226,7 @@ function AdminDashboard() {
                                     <div className="col-6 col-sm-3 col-lg-3 mb-4 mb-md-0">
                                         <div className="avatar-item mb-0">
                                             <img
-                                                alt="image"
+                                                alt="image1"
                                                 src="../assets/img/avatar/avatar-5.png"
                                                 className="img-fluid"
                                                 data-toggle="tooltip"
@@ -244,7 +244,7 @@ function AdminDashboard() {
                                     <div className="col-6 col-sm-3 col-lg-3 mb-4 mb-md-0">
                                         <div className="avatar-item mb-0">
                                             <img
-                                                alt="image"
+                                                alt="image1"
                                                 src="../assets/img/avatar/avatar-4.png"
                                                 className="img-fluid"
                                                 data-toggle="tooltip"
@@ -262,7 +262,7 @@ function AdminDashboard() {
                                     <div className="col-6 col-sm-3 col-lg-3 mb-4 mb-md-0">
                                         <div className="avatar-item mb-0">
                                             <img
-                                                alt="image"
+                                                alt="image1"
                                                 src="../assets/img/avatar/avatar-1.png"
                                                 className="img-fluid"
                                                 data-toggle="tooltip"
@@ -280,7 +280,7 @@ function AdminDashboard() {
                                     <div className="col-6 col-sm-3 col-lg-3 mb-4 mb-md-0">
                                         <div className="avatar-item mb-0">
                                             <img
-                                                alt="image"
+                                                alt="image1"
                                                 src="../assets/img/avatar/avatar-2.png"
                                                 className="img-fluid"
                                                 data-toggle="tooltip"
@@ -796,14 +796,14 @@ function AdminDashboard() {
                                                     </a>
                                                 </td>
                                                 <td>
-                                                    <a
+                                                    <a href="/dashboard"
                                                         className="btn btn-primary btn-action mr-1"
                                                         data-toggle="tooltip"
                                                         title="Edit"
                                                     >
                                                         <i className="fas fa-pencil-alt"></i>
                                                     </a>
-                                                    <a
+                                                    <a href="/dashboard"
                                                         className="btn btn-danger btn-action"
                                                         data-toggle="tooltip"
                                                         title="Delete"
@@ -835,14 +835,14 @@ function AdminDashboard() {
                                                     </a>
                                                 </td>
                                                 <td>
-                                                    <a
+                                                    <a href="/dashboard"
                                                         className="btn btn-primary btn-action mr-1"
                                                         data-toggle="tooltip"
                                                         title="Edit"
                                                     >
                                                         <i className="fas fa-pencil-alt"></i>
                                                     </a>
-                                                    <a
+                                                    <a href="/dashboard"
                                                         className="btn btn-danger btn-action"
                                                         data-toggle="tooltip"
                                                         title="Delete"
@@ -874,14 +874,14 @@ function AdminDashboard() {
                                                     </a>
                                                 </td>
                                                 <td>
-                                                    <a
+                                                    <a href="/dashboard"
                                                         className="btn btn-primary btn-action mr-1"
                                                         data-toggle="tooltip"
                                                         title="Edit"
                                                     >
                                                         <i className="fas fa-pencil-alt"></i>
                                                     </a>
-                                                    <a
+                                                    <a href="/dashboard"
                                                         className="btn btn-danger btn-action"
                                                         data-toggle="tooltip"
                                                         title="Delete"
@@ -913,14 +913,14 @@ function AdminDashboard() {
                                                     </a>
                                                 </td>
                                                 <td>
-                                                    <a
+                                                    <a href="/dashboard"
                                                         className="btn btn-primary btn-action mr-1"
                                                         data-toggle="tooltip"
                                                         title="Edit"
                                                     >
                                                         <i className="fas fa-pencil-alt"></i>
                                                     </a>
-                                                    <a
+                                                    <a href="/dashboard"
                                                         className="btn btn-danger btn-action"
                                                         data-toggle="tooltip"
                                                         title="Delete"
@@ -952,14 +952,14 @@ function AdminDashboard() {
                                                     </a>
                                                 </td>
                                                 <td>
-                                                    <a
+                                                    <a href="/dashboard"
                                                         className="btn btn-primary btn-action mr-1"
                                                         data-toggle="tooltip"
                                                         title="Edit"
                                                     >
                                                         <i className="fas fa-pencil-alt"></i>
                                                     </a>
-                                                    <a
+                                                    <a href="/dashboard"
                                                         className="btn btn-danger btn-action"
                                                         data-toggle="tooltip"
                                                         title="Delete"
@@ -991,14 +991,14 @@ function AdminDashboard() {
                                                     </a>
                                                 </td>
                                                 <td>
-                                                    <a
+                                                    <a href="/dashboard" 
                                                         className="btn btn-primary btn-action mr-1"
                                                         data-toggle="tooltip"
                                                         title="Edit"
                                                     >
                                                         <i className="fas fa-pencil-alt"></i>
                                                     </a>
-                                                    <a
+                                                    <a href="/dashboard"
                                                         className="btn btn-danger btn-action"
                                                         data-toggle="tooltip"
                                                         title="Delete"

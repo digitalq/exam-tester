@@ -11,7 +11,7 @@ export class UserDropdown extends Component {
           className="nav-link dropdown-toggle nav-link-lg nav-link-user"
         >
           <img
-            alt="image"
+            alt="image1"
             src={userDetail.userImg}
             className="rounded-circle mr-1"
           />
