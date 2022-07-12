@@ -70,7 +70,7 @@ export const QuizList = () => {
                   <td> 1 </td>
                   <td> 123@gmial.com </td>
                   <td>suresh</td>
-                  <td><a>Active</a></td>
+                  <td>Active</td>
                  
 
                 </tr>
@@ -78,7 +78,7 @@ export const QuizList = () => {
                   <td> 1 </td>
                   <td> 123@gmial.com </td>
                   <td>suresh</td>
-                  <td><a>Active</a></td>
+                  <td>Active</td>
                  
 
                 </tr>
@@ -86,7 +86,7 @@ export const QuizList = () => {
                   <td> 1 </td>
                   <td> 123@gmial.com </td>
                   <td>suresh</td>
-                  <td><a>Active</a></td>
+                  <td>Active</td>
                  
 
                 </tr>
