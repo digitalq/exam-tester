@@ -4,11 +4,11 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/css/style.css';
 import './assets/css/components.css';
-import './assets/css/components.css.map';
-import './assets/css/custom.css';
-import './assets/css/custom.css.map';
+// import './assets/css/components.css.map';
+// import './assets/css/custom.css';
+// import './assets/css/custom.css.map';
 import './assets/css/reverse.css';
-import './assets/css/style.css.map';
+// import './assets/css/style.css.map';
 import './assets/css/rtl.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-social/bootstrap-social.css";

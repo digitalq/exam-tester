@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 
 import { Link, NavLink } from "react-router-dom";
 import { Data } from "./data";
-import { useLocation } from "react-router-dom";
+// import { useLocation } from "react-router-dom";
 // import "../../../js/js/scripts";
 // import "../../../js/js/stisla";
 
@@ -33,7 +33,7 @@ function Sidebar() {
                 if (menu.active) {
                   comp = (
                     <li key={iMenu} className="nav-item dropdown active">
-                      <a href="#" className="nav-link has-dropdown">
+                      <a href="/dashboard" className="nav-link has-dropdown">
                         <i className={menu.icon} /> <span> {menu.name} </span>
                       </a>{" "}
                       <ul className="dropdown-menu">
@@ -118,7 +118,7 @@ function Sidebar() {
                 } else {
                   comp = (
                     <li key={iMenu} className="nav-item dropdown">
-                      <a href="#" className="nav-link has-dropdown">
+                      <a href="/dashboard" className="nav-link has-dropdown">
                         <i className={menu.icon} /> <span> {menu.name} </span>
                       </a>{" "}
                       <ul className="dropdown-menu">

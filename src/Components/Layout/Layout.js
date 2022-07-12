@@ -1,5 +1,5 @@
 import React from 'react';
-import { Footer, Header} from '../admin';
+import { Header} from '../admin';
 import SideBar from '../admin/sidebar';
 
 const Layout = ({content}) => {

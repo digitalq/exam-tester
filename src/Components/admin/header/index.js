@@ -1,10 +1,10 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import ToggleData from "./ToggleData";
-import { searchResultData, EnvelopData, NotifyData, userDetail } from "./Data";
-import Search from "./Search";
-import UserDropdown from "./UserDropdown";
+// import ToggleData from "./ToggleData";
+// import { searchResultData, EnvelopData, NotifyData, userDetail } from "./Data";
+// import Search from "./Search";
+// import UserDropdown from "./UserDropdown";
 // import Auth from '../../../../config/auth';
 
 const Header = () => {
@@ -16,7 +16,7 @@ const Header = () => {
           <ul className="navbar-nav mr-3">
             <li>
               <a
-                href="#"
+                href="/dashboard"
                 data-toggle="sidebar"
                 className="nav-link nav-link-lg"
               >
@@ -26,7 +26,7 @@ const Header = () => {
 
             <li>
               <a
-                href="#"
+                href="/dashboard"
                 data-toggle="search"
                 className="nav-link nav-link-lg d-sm-none"
               >

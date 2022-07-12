@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { validEmail, validPassword } from "./utils/Regex";
+import { validEmail } from "./utils/Regex";
 import logo from '../../assets/images/company-logo.svg'
-import SideBar from '../admin/sidebar';
 export const Register = () => {
 
 

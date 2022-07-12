@@ -9,7 +9,7 @@ export class ToggleContent extends Component {
           return (
             <a
               key={icontent}
-              href="#"
+              href="/dashboard"
               className={`dropdown-item ${
                 content.unreadClass === true ? "dropdown-item-unread" : ""
               }`}

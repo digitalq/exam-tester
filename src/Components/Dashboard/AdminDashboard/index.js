@@ -71,10 +71,10 @@ function AdminDashboard() {
                                 <h4>Statistics</h4>
                                 <div className="card-header-action">
                                     <div className="btn-group">
-                                        <a href="#" className="btn btn-primary">
+                                        <a href="/dashboard" className="btn btn-primary">
                                             Week
                                         </a>
-                                        <a href="#" className="btn">
+                                        <a href="/dashboard" className="btn">
                                             Month
                                         </a>
                                     </div>
@@ -200,7 +200,7 @@ function AdminDashboard() {
                                     </li>
                                 </ul>
                                 <div className="text-center pt-1 pb-1">
-                                    <a href="#" className="btn btn-primary btn-lg btn-round">
+                                    <a href="/dashboard" className="btn btn-primary btn-lg btn-round">
                                         View All
                                     </a>
                                 </div>
@@ -480,24 +480,24 @@ function AdminDashboard() {
                                 <div className="card-header-action">
                                     <div className="dropdown">
                                         <a
-                                            href="#"
+                                            href="/dashboard"
                                             className="dropdown-toggle btn btn-primary"
                                             data-toggle="dropdown"
                                         >
                                             Filter
                                         </a>
                                         <div className="dropdown-menu dropdown-menu-right">
-                                            <a href="#" className="dropdown-item has-icon">
+                                            <a href="/dashboard" className="dropdown-item has-icon">
                                                 <i className="far fa-circle"></i> Electronic
                                             </a>
-                                            <a href="#" className="dropdown-item has-icon">
+                                            <a href="/dashboard" className="dropdown-item has-icon">
                                                 <i className="far fa-circle"></i> T-shirt
                                             </a>
-                                            <a href="#" className="dropdown-item has-icon">
+                                            <a href="/dashboard" className="dropdown-item has-icon">
                                                 <i className="far fa-circle"></i> Hat
                                             </a>
                                             <div className="dropdown-divider"></div>
-                                            <a href="#" className="dropdown-item">
+                                            <a href="/dashboard" className="dropdown-item">
                                                 View All
                                             </a>
                                         </div>
@@ -512,7 +512,7 @@ function AdminDashboard() {
                                             Sold 3 items on 2 customers
                                         </div>
                                         <div className="d-block mt-2">
-                                            <a href="#">View All</a>
+                                            <a href="/dashboard">View All</a>
                                         </div>
                                     </div>
                                     <div className="summary-item">
@@ -521,7 +521,7 @@ function AdminDashboard() {
                                         </h6>
                                         <ul className="list-unstyled list-unstyled-border">
                                             <li className="media">
-                                                <a href="#">
+                                                <a href="/dashboard">
                                                     <img
                                                         className="mr-3 rounded"
                                                         width="50"
@@ -532,16 +532,16 @@ function AdminDashboard() {
                                                 <div className="media-body">
                                                     <div className="media-right">$405</div>
                                                     <div className="media-title">
-                                                        <a href="#">PlayStation 9</a>
+                                                        <a href="/dashboard">PlayStation 9</a>
                                                     </div>
                                                     <div className="text-muted text-small">
-                                                        by <a href="#">Hasan Basri</a>{" "}
+                                                        by <a href="/dashboard">Hasan Basri</a>{" "}
                                                         <div className="bullet"></div> Sunday
                                                     </div>
                                                 </div>
                                             </li>
                                             <li className="media">
-                                                <a href="#">
+                                                <a href="/dashboard">
                                                     <img
                                                         className="mr-3 rounded"
                                                         width="50"
@@ -552,16 +552,16 @@ function AdminDashboard() {
                                                 <div className="media-body">
                                                     <div className="media-right">$499</div>
                                                     <div className="media-title">
-                                                        <a href="#">RocketZ</a>
+                                                        <a href="/dashboard">RocketZ</a>
                                                     </div>
                                                     <div className="text-muted text-small">
-                                                        by <a href="#">Hasan Basri</a>{" "}
+                                                        by <a href="/dashboard">Hasan Basri</a>{" "}
                                                         <div className="bullet"></div> Sunday
                                                     </div>
                                                 </div>
                                             </li>
                                             <li className="media">
-                                                <a href="#">
+                                                <a href="/dashboard">
                                                     <img
                                                         className="mr-3 rounded"
                                                         width="50"
@@ -572,10 +572,10 @@ function AdminDashboard() {
                                                 <div className="media-body">
                                                     <div className="media-right">$149</div>
                                                     <div className="media-title">
-                                                        <a href="#">Xiaomay Readme 4.0</a>
+                                                        <a href="/dashboard">Xiaomay Readme 4.0</a>
                                                     </div>
                                                     <div className="text-muted text-small">
-                                                        by <a href="#">Kusnaedi</a>{" "}
+                                                        by <a href="/dashboard">Kusnaedi</a>{" "}
                                                         <div className="bullet"></div> Tuesday
                                                     </div>
                                                 </div>
@@ -589,7 +589,7 @@ function AdminDashboard() {
                             <div className="card-header">
                                 <h4 className="d-inline">Tasks</h4>
                                 <div className="card-header-action">
-                                    <a href="#" className="btn btn-primary">
+                                    <a href="/dashboard" className="btn btn-primary">
                                         View All
                                     </a>
                                 </div>
@@ -619,7 +619,7 @@ function AdminDashboard() {
                                                 Not Finished
                                             </div>
                                             <h6 className="media-title">
-                                                <a href="#">Redesign header</a>
+                                                <a href="/dashboard">Redesign header</a>
                                             </h6>
                                             <div className="text-small text-muted">
                                                 Alfa Zulkarnain <div className="bullet"></div>{" "}
@@ -651,7 +651,7 @@ function AdminDashboard() {
                                                 Completed
                                             </div>
                                             <h6 className="media-title">
-                                                <a href="#">Add a new component</a>
+                                                <a href="/dashboard">Add a new component</a>
                                             </h6>
                                             <div className="text-small text-muted">
                                                 Serj Tankian <div className="bullet"></div> 4 Min
@@ -681,7 +681,7 @@ function AdminDashboard() {
                                                 Progress
                                             </div>
                                             <h6 className="media-title">
-                                                <a href="#">Fix modal window</a>
+                                                <a href="/dashboard">Fix modal window</a>
                                             </h6>
                                             <div className="text-small text-muted">
                                                 Ujang Maman <div className="bullet"></div> 8 Min
@@ -711,7 +711,7 @@ function AdminDashboard() {
                                                 Not Finished
                                             </div>
                                             <h6 className="media-title">
-                                                <a href="#">Remove unwanted classNamees</a>
+                                                <a href="/dashboard">Remove unwanted classNamees</a>
                                             </h6>
                                             <div className="text-small text-muted">
                                                 Farhan A Mujib <div className="bullet"></div> 21 Min
@@ -759,7 +759,7 @@ function AdminDashboard() {
                             <div className="card-header">
                                 <h4>Latest Posts</h4>
                                 <div className="card-header-action">
-                                    <a href="#" className="btn btn-primary">
+                                    <a href="/dashboard" className="btn btn-primary">
                                         View All
                                     </a>
                                 </div>
@@ -779,13 +779,13 @@ function AdminDashboard() {
                                                 <td>
                                                     Introduction Laravel 5
                                                     <div className="table-links">
-                                                        in <a href="#">Web Development</a>
+                                                        in <a href="/dashboard">Web Development</a>
                                                         <div className="bullet"></div>
-                                                        <a href="#">View</a>
+                                                        <a href="/dashboard">View</a>
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <a href="#" className="font-weight-600">
+                                                    <a href="/dashboard" className="font-weight-600">
                                                         <img
                                                             src="../assets/img/avatar/avatar-1.png"
                                                             alt="avatar"
@@ -818,13 +818,13 @@ function AdminDashboard() {
                                                 <td>
                                                     Laravel 5 Tutorial - Installation
                                                     <div className="table-links">
-                                                        in <a href="#">Web Development</a>
+                                                        in <a href="/dashboard">Web Development</a>
                                                         <div className="bullet"></div>
-                                                        <a href="#">View</a>
+                                                        <a href="/dashboard">View</a>
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <a href="#" className="font-weight-600">
+                                                    <a href="/dashboard" className="font-weight-600">
                                                         <img
                                                             src="../assets/img/avatar/avatar-1.png"
                                                             alt="avatar"
@@ -857,13 +857,13 @@ function AdminDashboard() {
                                                 <td>
                                                     Laravel 5 Tutorial - MVC
                                                     <div className="table-links">
-                                                        in <a href="#">Web Development</a>
+                                                        in <a href="/dashboard">Web Development</a>
                                                         <div className="bullet"></div>
-                                                        <a href="#">View</a>
+                                                        <a href="/dashboard">View</a>
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <a href="#" className="font-weight-600">
+                                                    <a href="/dashboard" className="font-weight-600">
                                                         <img
                                                             src="../assets/img/avatar/avatar-1.png"
                                                             alt="avatar"
@@ -896,13 +896,13 @@ function AdminDashboard() {
                                                 <td>
                                                     Laravel 5 Tutorial - Migration
                                                     <div className="table-links">
-                                                        in <a href="#">Web Development</a>
+                                                        in <a href="/dashboard">Web Development</a>
                                                         <div className="bullet"></div>
-                                                        <a href="#">View</a>
+                                                        <a href="/dashboard">View</a>
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <a href="#" className="font-weight-600">
+                                                    <a href="/dashboard" className="font-weight-600">
                                                         <img
                                                             src="../assets/img/avatar/avatar-1.png"
                                                             alt="avatar"
@@ -935,13 +935,13 @@ function AdminDashboard() {
                                                 <td>
                                                     Laravel 5 Tutorial - Deploy
                                                     <div className="table-links">
-                                                        in <a href="#">Web Development</a>
+                                                        in <a href="/dashboard">Web Development</a>
                                                         <div className="bullet"></div>
-                                                        <a href="#">View</a>
+                                                        <a href="/dashboard">View</a>
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <a href="#" className="font-weight-600">
+                                                    <a href="/dashboard" className="font-weight-600">
                                                         <img
                                                             src="../assets/img/avatar/avatar-1.png"
                                                             alt="avatar"
@@ -974,13 +974,13 @@ function AdminDashboard() {
                                                 <td>
                                                     Laravel 5 Tutorial - Closing
                                                     <div className="table-links">
-                                                        in <a href="#">Web Development</a>
+                                                        in <a href="/dashboard">Web Development</a>
                                                         <div className="bullet"></div>
-                                                        <a href="#">View</a>
+                                                        <a href="/dashboard">View</a>
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <a href="#" className="font-weight-600">
+                                                    <a href="/dashboard" className="font-weight-600">
                                                         <img
                                                             src="../assets/img/avatar/avatar-1.png"
                                                             alt="avatar"

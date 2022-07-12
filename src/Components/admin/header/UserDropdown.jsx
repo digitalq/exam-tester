@@ -6,7 +6,7 @@ export class UserDropdown extends Component {
     return (
       <li className="dropdown">
         <a
-          href="#"
+          href="/dashboard"
           data-toggle="dropdown"
           className="nav-link dropdown-toggle nav-link-lg nav-link-user"
         >
@@ -42,7 +42,7 @@ export class UserDropdown extends Component {
 
           <div className="dropdown-divider" />
           <a
-            href="#"
+            href="/dashboard"
             className="dropdown-item has-icon text-danger"
             // onClick={() => {
             //   Auth.logout(() => {
