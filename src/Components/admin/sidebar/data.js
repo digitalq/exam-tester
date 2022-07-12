@@ -53,7 +53,7 @@ export const Data = {
                 },
                 {
                     name: 'General Dashboard',
-                    url: '/dashboard/general',
+                    url: '/dashboard',
                     active: false
                 }
             ]
@@ -69,7 +69,7 @@ export const Data = {
             icon: 'fas fa-columns',
             children: [{
                     name: 'Default Layout',
-                    url: '/layout/default'
+                    url: '/new-user'
                 }, {
                     name: 'Transparent Sidebar',
                     url: '/layout/transparent-sidebar'
@@ -83,9 +83,21 @@ export const Data = {
             ]
         },
         {
-            name: 'Blank Page',
+            name: 'New User',
             icon: 'far fa-square',
-            url: "/blank"
+            url: "/new-user"
+
+        },
+        {
+            name: 'My-Appointment',
+            icon: 'far fa-square',
+            url: "/my-appointment"
+
+        },
+        {
+            name: 'My-Appointment',
+            icon: 'far fa-square',
+            url: "/quiz-list"
 
         },
         {
@@ -478,9 +490,9 @@ export const Data = {
         {
             dropdown: false,
             active: false,
-            name: 'Credits',
+            name: 'User List',
             icon: 'fas fa-pencil-ruler',
-            url: '/credit',
+            url: '/user-list',
         }
     ]
 };
