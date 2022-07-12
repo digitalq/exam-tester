@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Footer, Header } from "../../admin";
 import SideBar from "../../admin/sidebar";
 
@@ -121,7 +121,7 @@ export const Myappointment = () => {
                   <td> 1 </td>
                   <td> 123@gmial.com </td>
                   <td>suresh</td>
-                  <td><a>Active</a></td>
+                  <td>Active</td>
                   <td>Send New Notification</td>
 
                 </tr>
@@ -129,7 +129,7 @@ export const Myappointment = () => {
                   <td> 1 </td>
                   <td> 123@gmial.com </td>
                   <td>suresh</td>
-                  <td><a>Active</a></td>
+                  <td>Active</td>
                   <td>Send New Notification</td>
 
                 </tr>
@@ -137,7 +137,7 @@ export const Myappointment = () => {
                   <td> 1 </td>
                   <td> 123@gmial.com </td>
                   <td>suresh</td>
-                  <td><a>Active</a></td>
+                  <td>Active</td>
                   <td>Send New Notification</td>
 
                 </tr>
